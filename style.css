@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    padding: 8px 16px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid gray;
+}
+
+ol li:hover{
+    opacity: 0.75;
+}
+
+a {
+    padding: 0.5em;
+    margin: 4px 0;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Produtos</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1>Seus Produtos</h1>
+            <ol id="list"></ol>
+        </div>
+        <div>
+            <h1>Adicione seu Produto</h1>
+            <form action="" id="captureInfo">
+                Nome do produto: <input type="text" name="nomeProduto">
+                <br>
+                Descrição: <input type="text" name="descricao">
+                <br>
+                Valor: <input type="text" name="valor">
+                <br>
+                Pode vender?
+                <input type="radio" name="podeVender" value="true" checked> Sim
+                <input type="radio" name="podeVender" value="false"> Não
+                <br>
+                <button id="button">Adicionar item</button>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
